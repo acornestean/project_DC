@@ -2,6 +2,15 @@
 <html>
 <body>
 
+<p>Both links use the same site permission add-on which was generated via the form from AMO DEV. As such, the below prefs must be created/set in about:config. After setting the prefs, a browser restart will be required.</p>
+<ul>
+<li> xpinstall.signatures.dev-root = true </li>
+<li> dom.webmidi.enabled = true </li>
+<li> midi.testing = true </li>
+</ul>
+<p> The first link proposes to test the distribution control mechanism in which installation will be disallowed for add-ons which, even though have a valid origin, the add-on is hosted somewhere else.</p>
+<p> The second link proposes to test the scenario in which the add-on has a valid origin and installation is triggered from the origin domain. As such, installation will be allowed and the permission will be granted to the domain post installation. </p>   
+  
 <p>  
 <a href="http://localhost:8000/site_permissions_for_acornesteangithubio-1.0-an+fx.xpi">site_permissions_for_acornesteangithubio-1.0-an+fx.xpi</a>
 </p>
