@@ -1,3 +1,0 @@
-- Run `make` to get .xpi files
-- Serve files webserver (e.g. `python -m http.server`)
-- Open poc.html in Firefox
